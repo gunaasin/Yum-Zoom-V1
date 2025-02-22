@@ -1,6 +1,6 @@
-# YumZoom API
+# YumZoom 
 
-The YumZoom API is a Spring Boot-based backend service that facilitates food ordering, user management, and order tracking. This API also handles user authentication and authorization.
+The YumZoom is a Spring Boot-based backend service that facilitates food ordering, user management, and order tracking. This API also handles user authentication and authorization.
 
 ## Features
 
@@ -34,7 +34,7 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/gunaasin/Yum-Zoom-V1.git
-cd yumzoom-api
+cd Yum-Zoom-V1
 ```
 
 ### 2. Configure the Application
