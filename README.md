@@ -33,7 +33,7 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/YumZoom/yumzoom-api.git
+[git clone https://github.com/YumZoom/yumzoom-api.git](https://github.com/gunaasin/Yum-Zoom-V1.git)
 cd yumzoom-api
 ```
 
