@@ -150,7 +150,7 @@ yumzoom-api/
 ## Common Errors
 
 ### 1. Service Not Initialized in the Default Constructor
-Ensure all services are properly annotated with `@RequiredArgsConstructor` or autowired.
+Ensure Lombok services are properl work, because all annotated with `@RequiredArgsConstructor`
 
 ### 2. Database Connection Errors
 Check your `application.yml` for the correct database URL, username, and password.
