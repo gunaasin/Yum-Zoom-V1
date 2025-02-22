@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USER}
+    password: ${DATASOURCE_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: postgresql
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+
+client:
+  end-point: ${FRONT_END_SOURCE}
+
+stripe:
+  secretKey: ${STRIPE_SECRET_KEY}
+  primaryKey: ${STRIPE_PRIMARY_KEY}
+  webhookSecret: ${STRIPE_WEBHOOK_SECRET_KEY}

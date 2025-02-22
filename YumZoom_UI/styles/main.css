@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #ff493c;
+  --primary-color-shade: #ff493cec;
+  --primary-color-light: #fff5f5;
+  --primary-color-lighter: #FFC4C4;
+  --secondary-color: #000000;
+  --background-color: #FFFFFF;
+  --text-color: #333333;
+  --gray-color: #666666;
+  --light-gray: #f5f5f5;
+  --border-color: #e0e0e0;
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+}
+
+
+* {
+  /* user-select: none; */
+  /* -webkit-user-select: none; */
+  -ms-user-select: none;
+  /* -webkit-tap-highlight-color: transparent; */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+html,
+body {
+  touch-action: manipulation;
+}
+
+body {
+  font-family: "Poppins", serif;
+  background-color: var(--light-gray);
+  color: var(--text-color);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--gray-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::selection {
+  background-color: var(--primary-color-lighter);
+}
+
+
+
+/* Notification */
+.notification {
+  z-index: 99999;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  animation: slideIn 0.3s ease-out;
+  z-index: 1000;
+
+}
+
+.ntf-btn {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0px 15px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+
+.bell {
+  width: 13px;
+}
+
+.bell path {
+  fill: rgb(0, 206, 62);
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  padding-left: 15px;
+  width: 30px;
+  height: 100%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ntf-btn:hover {
+  background-color: rgb(77, 77, 77);
+  transition-duration: .2s;
+}
+
+.ntf-btn:hover .arrow {
+  animation: slide-right .6s ease-out both;
+}
+
+/* arrow animation */
+@keyframes slide-right {
+  0% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.button:active {
+  transform: translate(1px, 1px);
+  transition-duration: .2s;
+}
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+@media (max-width:768px) {
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+}
