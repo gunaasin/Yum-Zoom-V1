@@ -156,5 +156,5 @@ Ensure Lombok services are properl work, because all annotated with `@RequiredAr
 Check your `application.yml` for the correct database URL, username, and password.
 
 ## Contact
-For queries or support, contact the YumZoom team at `guna.asin06@gmail.com`. 🎉
+For queries or support, contact the YumZoom developer at `guna.asin06@gmail.com`. 🎉
 
