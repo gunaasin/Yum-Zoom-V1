@@ -1,8 +1,7 @@
 # YumZoom 
-![alt text](<Logo.png>)
 The YumZoom is a Spring Boot-based backend service that facilitates food ordering, user management, and order tracking. This API also handles user authentication and authorization.
 
-![alt text](<Screenshot.png>)
+![alt text](<Hungry Let YumZoom save the day!.png>)
 
 ## Features
 
