@@ -150,11 +150,11 @@ yumzoom-api/
 ## Common Errors
 
 ### 1. Service Not Initialized in the Default Constructor
-Ensure all services are properly annotated with `@RequiredArgsConstructor` or autowired.
+Ensure Lombok services are working properly, as all are annotated with `@RequiredArgsConstructor`.
 
 ### 2. Database Connection Errors
 Check your `application.yml` for the correct database URL, username, and password.
 
 ## Contact
-For queries or support, contact the YumZoom team at `guna.asin06@gmail.com`. 🎉
+For queries or support, contact the YumZoom developer at `guna.asin06@gmail.com`. 🎉
 
